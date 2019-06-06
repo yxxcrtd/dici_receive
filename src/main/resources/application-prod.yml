@@ -1,0 +1,21 @@
+spring:
+    redis:
+            database: 0
+            host: 139.198.2.158
+            port: 15435
+            password:
+            pool:
+                max-idle: 8
+                min-idle: 0
+                max-active: 8
+                max-wait: -1
+                timeout: 0
+
+retrofit:
+    base-url: http://36.5.150.158:15000/  #注意最后 ‘/’结尾 大后台服务地址
+    timeout: 3 #单位 s
+
+log:
+  path: /mnt/logs/ #业务日志记录位置
+
+
